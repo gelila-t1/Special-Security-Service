@@ -1,0 +1,238 @@
+.contact-us{
+    display: flex;
+    flex-direction: row;
+    column-gap: 4rem;
+    margin-left: 6rem;
+    margin-top: 5rem;
+}
+.contact{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 128%;
+    color: #000000;
+}
+.contact-text{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 124%;
+    color: #5E6366;
+}
+.contact-desc{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 160.9%;
+color: #979797;
+}
+.contact-info{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    color: white;
+    margin-top: 7rem;
+    margin-left: 5rem;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+.btn-send{
+    background: white;
+    border: none;
+    height: 4rem;
+}
+.address{
+    margin-top: 2.5rem;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 38px;
+
+/* identical to box height */
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+}
+.ad{
+    color: #FFFFFF;   
+    text-decoration: none;
+}
+.ball{
+    padding-top: 1rem;
+}
+.wrap-address{
+    margin-top: 34rem;
+    margin-left: 5rem;
+}
+.ad-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 141%;
+    color: white;
+  }
+.call-us{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+.contact-call{
+    display: flex;
+    flex-direction: row;
+    column-gap: 3.5rem;
+}
+.contact-days{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 55%;
+color: #5E6366;
+margin-top: 2.5rem;
+}
+.phone{
+    margin-top: 3rem;
+}
+.phone-no{
+    text-decoration: none;
+    color: white;
+}
+.contact-num{  
+font-family: 'Lexend';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 45px;
+color: #000000;
+text-decoration: none;
+}
+.Name{
+    display: flex;
+    flex-direction: row;
+    column-gap: 4rem;
+}
+.contact-name{
+   font-family: 'Lexend Deca', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 22px;
+color: #000000;
+}
+.enter{
+   font-family: 'Lexend Deca', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+color: #979797;
+}
+.nameInput{
+    height: 2.5rem;
+    width: 13rem;
+}
+.emailInput{
+    height: 2.7rem;
+    width: 30.6rem; 
+}
+.messageInput{
+    height: 10rem;
+    width: 30.6rem;
+}
+::placeholder{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ABAFB1;
+}
+.contactImage{
+    width: 100%;
+    height: auto;
+}
+@media(max-width:767px){
+    .contact-us{
+        flex-direction: column;
+        margin-left: 0rem;
+        row-gap: 2rem;
+        margin-top: 4rem;
+    }
+    .contact-text{
+        font-size: 19px;
+    }
+    .contact-desc{
+    font-size: 15px;
+}
+.contact-us .request{
+    width: 70%;
+}
+.contact-call{
+    column-gap: 0.2rem;
+}
+.contact-days{
+font-size: 16px;
+}
+.phone{
+    margin-top: 3rem;
+}
+.contact-num{  
+font-size: 14px;
+}
+.call-us{
+    column-gap: 0.5rem;
+    margin-left: -3rem;
+}
+.Name {
+    column-gap: 1rem;
+  }
+  .nameInput {
+    height: 1.7rem;
+    width: 10rem;
+  }
+  .emailInput {
+    height: 1.8rem;
+    width: 21.6rem;
+  }
+  .messageInput {
+    height: 8rem;
+    width: 21.6rem;
+  }
+  .contact {
+    font-size: 58px;
+}
+  .ad-text{
+    font-size: 13px;
+  }
+  .wrap-address {
+    margin-top: 20rem;
+    margin-left: 1rem;
+}
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    color: white;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    font-size: 10px;
+    font-weight: 400;
+}
+.form-section{
+    margin-left: 1rem;
+}
+}
+@media(min-width: 1600px){
+    .contact-us {
+        column-gap: 10rem;
+        margin-right: 8rem;
+    }
+}

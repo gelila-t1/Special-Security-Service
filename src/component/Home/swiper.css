@@ -1,0 +1,134 @@
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+#sevices.swiper {
+  width: 100%;
+  height: 100%;
+}
+.mySwiper{
+
+margin-top: 5rem;
+}
+.mobile-title{
+  font-family: 'Lexend';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 150%;
+letter-spacing: 0.02em;
+/* color: #101828; */
+}
+/* .iconOne{
+  width: 6rem;
+  height: 5rem;
+} */
+
+
+.service-one{
+  background: #FFFFFF;
+border: 1px solid rgba(216, 216, 216, 0.4);
+box-shadow: 0px 67.1144px 109.061px rgba(0, 0, 0, 0.05);
+border-radius: 12px;
+width: 21rem;
+height: 19rem;
+margin-bottom: 4rem;
+}
+.inside{
+margin-left: 2rem;
+margin-top: 2rem;
+}
+.nexticon{
+  margin-left: 1rem;
+}
+.swipe{
+  margin-left:5rem;
+  margin-right:5rem;
+}
+.swiper-pagination-bullet-active{
+  width: 3rem;
+height: 12px;
+background: linear-gradient(74.35deg, #682696 8.29%, #6A2694 8.54%, #94256D 15.21%, #B7244D 22%, #D22333 28.87%, #E52221 35.81%, #F02217 42.91%, #F42213 50.35%, #F8B04A 92.41%);
+border-radius: 23px;
+}
+.services-text{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 180%;
+/* color: #646464; */
+}
+.swipe .swiper-slide.swiper-slide-active{
+  color: white;
+  background-image: linear-gradient(
+    74.35deg,
+    #682696 8.29%,
+    #6a2694 8.54%,
+    #94256d 15.21%,
+    #b7244d 22%,
+    #d22333 28.87%,
+    #e52221 35.81%,
+    #f02217 42.91%,
+    #f42213 50.35%,
+    #f8b04a 92.41%
+  );
+  border: none;
+  -webkit-text-fill-color: white;
+}
+.swiper-slide{
+  width: 21rem;
+  background: #FFFFFF;
+border: 1px solid rgba(216, 216, 216, 0.4);
+box-shadow: 0px 67.1144px 109.061px rgba(0, 0, 0, 0.05);
+border-radius: 12px;
+width: 21rem;
+height: 19.5rem;
+margin-bottom: 4rem;
+}
+.learn-more{
+  /* background-image: linear-gradient(
+    74.35deg,
+    #682696 8.29%,
+    #6a2694 8.54%,
+    #94256d 15.21%,
+    #b7244d 22%,
+    #d22333 28.87%,
+    #e52221 35.81%,
+    #f02217 42.91%,
+    #f42213 50.35%,
+    #f8b04a 92.41%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+.iconOne{
+  margin-right: 1.5rem;
+}
+@media(max-width:767px){
+  .swiper-slide {
+    height: 24rem;
+  }
+  .swipe {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .iconOne {
+    margin-right: 0.5rem;
+  }
+  .mySwiper {
+    margin-top: 3rem;
+  }
+}

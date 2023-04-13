@@ -1,0 +1,164 @@
+.training-header{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 62px;
+text-align: center;
+color: #170F49;
+margin-top: 4rem;
+}
+.training-text{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+color: #6F6C90;
+}
+.individuals{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 20px;
+/* color: #6F6C90; */
+margin-top: 3rem;
+}
+.icon-div{
+    background: #ECEBFF;
+    border-radius: 16px;
+    width: 4rem;
+    height: 4rem;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin-left: 2rem;
+margin-top: 2rem;
+}
+.trainingCard-text{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+/* color: #6F6C90; */
+}
+.card-one p{
+    margin-left: 2rem; 
+    margin-right: 2rem;
+}
+.usd{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 66px;
+/* color: #170F49; */
+margin-top: -1rem;
+}
+.span-text{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+/* color: #6F6C90; */
+}
+.included{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+/* color: #170F49; */
+margin-top: -2.5rem;
+}
+.checkbox-circle{
+   margin-right: 0.6rem;
+}
+.training-cards{
+    display: flex;
+    flex-direction: row;
+    column-gap: 3rem;
+    margin-top: 4rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.card-one{
+    background: #FFFFFF;
+border: 1px solid #EFF0F7;
+box-shadow: 0px 2px 12px rgba(20, 20, 43, 0.08);
+border-radius: 24px;
+width: 21rem;
+}
+.card-one:hover{
+    background: #106DB3;
+    color: #FFFFFF;
+    margin-top: -4rem;
+}
+.section-two{
+	display: flex;
+	flex-direction: row;
+	column-gap: 3rem;
+	margin-left: 5rem;
+	margin-right: 4rem;
+	margin-top: 6rem;
+}
+.training-textSec{
+	font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 62px;
+color: #000000;
+}
+.training-content{
+	font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #5C5C5C;
+}
+.gallery{
+		display: flex;
+	flex-direction: row;
+	column-gap: 3rem;
+	margin-left: 5rem;
+	margin-right: 4rem;
+	margin-top: 3rem;
+}
+.gallery-img{
+	width: 100%;
+}
+.contentTwo{
+	display: flex;
+	flex-direction: row;
+	column-gap: 3rem;
+	margin-left: 5rem;
+	margin-right: 4rem;
+	margin-top: 5rem;
+}
+.content-title{
+	font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 62px;
+color: #000000
+}
+.content-text{
+	font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #5C5C5C;
+margin-top: -1.5rem;
+}
+.professional-amount{
+	color: #CFD3D5;
+}

@@ -1,0 +1,45 @@
+.security-services{
+    display: flex;
+    flex-direction: row;
+    column-gap: 3rem;
+    margin-left: 6rem;
+    margin-top: 5rem;
+}
+.security-serve{
+    display: flex;
+    flex-direction: row;
+    column-gap: 3rem; 
+    margin-left: 6rem;
+    margin-top: 5rem;
+}
+.service-section{
+    margin-right: 6rem;
+}
+.service-text{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+color: #929090;
+}
+@media(max-width:767px){
+    .security-services {
+        flex-direction: column;
+        margin-left: 1rem;
+        
+      }
+    .security-serve{
+        flex-direction: column-reverse;
+        margin-left: 1rem;
+        margin-top: 2rem;
+    }
+    .security-services img{
+        width: 90%;
+        height: auto;
+    }
+    .security-serve img{
+        width: 90%;
+        height: auto;
+    }
+}

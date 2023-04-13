@@ -1,0 +1,113 @@
+import React from 'react'
+import './training.css'
+import TriconTwo from '../../assets/tr-iconTwo.png'
+import TriconThree from '../../assets/tr-iconThree.png'
+import getStarted from '../../assets/getStarted.png'
+import trainingImage from '../../assets/training-image.png'
+import galleryOne from '../../assets/galleryOne.png'
+import galleryTwo from '../../assets/galleryTwo.png'
+import galleryThree from '../../assets/galleryThree.png'
+function Training() {
+  return (
+    <div>
+        <div className="training-header">Simple, transparent pricing</div>
+        <div className="training-text">Lorem ipsum dolor sit amet consectetur adipiscing elit dolor posuere vel <br/>
+            venenatis eu sit massa volutpat.</div>
+            <div className="training-cards">
+                <div className="card-one"> 
+                    <div className="flex"><div className="icon-div"><img src={TriconTwo}/></div><div className="individuals">For Individuals</div></div>
+               <p className="trainingCard-text">Lorem ipsum dolor sit amet doloroli sitiol conse ctetur adipiscing elit. </p>
+               <p className="usd">$99<span className="span-text">/Monthly</span></p>
+               <p className="included">What’s included</p>
+          <p>    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill checkbox-circle" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+</svg>Lorem ipsum dolor sit</p>
+<p>    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill checkbox-circle" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+</svg>Lorem ipsum dolor sit</p>
+<p>    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill checkbox-circle" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+</svg>Lorem ipsum dolor sit</p>
+<p>    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill checkbox-circle" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+</svg>Lorem ipsum dolor sit</p>
+              <p><img src={getStarted} className="request"/></p>
+                </div>
+                <div className="card-one"> 
+                                        <div className="flex"><div className="icon-div"><img src={TriconTwo}/></div><div className="individuals">For Individuals</div></div>
+               <p className="trainingCard-text">Lorem ipsum dolor sit amet doloroli sitiol conse ctetur adipiscing elit. </p>
+               <p className="usd">$99<span className="span-text">/Monthly</span></p>
+               <p className="included">What’s included</p>
+          <p>    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill checkbox-circle" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+</svg>Lorem ipsum dolor sit</p>
+<p>    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill checkbox-circle" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+</svg>Lorem ipsum dolor sit</p>
+<p>    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill checkbox-circle" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+</svg>Lorem ipsum dolor sit</p>
+<p>    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill checkbox-circle" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+</svg>Lorem ipsum dolor sit</p>
+              <p><img src={getStarted} className="request"/></p>
+                </div>
+                <div className="card-one"> 
+                                        <div className="flex"><div className="icon-div"><img src={TriconTwo}/></div><div className="individuals">For Individuals</div></div>
+               <p className="trainingCard-text">Lorem ipsum dolor sit amet doloroli sitiol conse ctetur adipiscing elit. </p>
+               <p className="usd">$99<span className="span-text">/Monthly</span></p>
+               <p className="included">What’s included</p>
+          <p>    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill checkbox-circle" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+</svg>Lorem ipsum dolor sit</p>
+<p>    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill checkbox-circle" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+</svg>Lorem ipsum dolor sit</p>
+<p>    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill checkbox-circle" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+</svg>Lorem ipsum dolor sit</p>
+<p>    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill checkbox-circle" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+</svg>Lorem ipsum dolor sit</p>
+              <p><img src={getStarted} className="request"/></p>
+                </div>
+            </div>
+            <div className="section-two">
+                   <div><img src={trainingImage}/></div>
+				   <div className="training-Sec">
+				   <div className="training-textSec">ABOUT THE SHOOTING<br/> CENTER</div>
+				   <div className="training-content">Lorem ipsum dolor sit amet consectetur. Ipsum pharetra nulla eget adipiscing. 
+				   Sed turpis velit duis fames phasellus ut. Purus condimentum convallis dignissim suscipit nullam amet.
+				   Enim sed morbi arcu tincidunt placerat faucibus. Viverra consequat feugiat lacus id condimentum porttitor ut. 
+				   Proin urna diam facilisis risus aliquet.
+Non non ac viverra mi lectus sed aliquet. Est arcu dictum ut malesuada id. </div>
+ <p><img src={getStarted} className="request"/></p>
+				   </div>
+            </div>
+			<div>
+			<div className="training-header">Gallery</div>
+        <div className="training-text">Lorem ipsum dolor sit amet consectetur adipiscing elit dolor posuere vel <br/>
+            venenatis eu sit massa volutpat.</div>
+			<div className="gallery">
+			<div><img src={galleryOne} className="gallery-img"/></div>
+			<div><img src={galleryTwo} className="gallery-img"/></div>
+			<div><img src={galleryThree} className="gallery-img"/></div>
+			</div>
+			</div>
+			<div className="contentTwo">
+			  <div>
+			  <p className="content-title">Lorem Ipsum Dolor <br/>Sit</p>
+			  <p className="content-text">Lorem ipsum dolor sit amet consectetur. 
+			  Ipsum pharetra nulla eget adipiscing. Sed turpis velit duis fames phasellus ut.
+			  Purus condimentum convallis dignissim suscipit nullam amet. 
+			  Enim sed morbi arcu tincidunt placerat faucibus. Viverra consequat feugiat lacus id condimentum porttitor ut.
+			  Proin urna diam facilisis risus aliquet.
+Non non ac viverra mi lectus sed aliquet. Est arcu dictum ut malesuada id. </p>
+</div>
+ <div><img src={trainingImage}/></div>
+			</div>
+    </div>
+  )
+}
+
+export default Training

@@ -1,0 +1,143 @@
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 4rem;
+    margin-top: 5rem;
+    height: 350px;
+}
+.Fsection-one{
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+.footer h4{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 6rem;
+}
+.footer-title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 6rem;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footer-titleOne{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 6rem;
+}
+.footer-titleTwo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 20px;
+    color: #FFFFFF; 
+    margin-top: 6rem;
+}
+.footer-desc{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #FFFFFF;
+}
+.footer a{
+    text-decoration: none;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+color: #FFFFFF;
+margin-top: 1.5rem;
+}
+.f-links{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 117.69%;
+    color: #FFFFFF;
+}
+.footer-txt{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #FFFFFF;
+}
+.social-medias{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5rem;
+}
+.bitapps-footer{
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat';
+  font-style: normal;
+  padding-top: 2rem;
+}
+.bit-link{
+    color: #F9C527;
+    padding-left: 0.3rem;
+    text-decoration: none;
+ }
+@media(max-width: 767px){
+    .footer {
+        grid-template-columns: auto auto;
+        row-gap: 6rem;
+        height: 650px;
+        column-gap: 4rem;
+      }
+    .Fsection-one {
+        margin-left: 1rem;
+        margin-top: 3rem;
+      }
+      .footer-title{
+        font-size: 23px;
+        margin-top: -5rem;
+        margin-left: 1rem;
+    }
+    
+    .footer a{
+        margin-left: 1rem;
+    }
+    .footer-logo {
+        width: 71%;
+        margin-left: -1.5rem;
+      }
+      .footer-titleOne{
+        margin-left: 1rem;
+        margin-top: 5rem;
+        font-size: 25px;
+      }
+      .footer-titleTwo{
+        margin-top: -5rem;
+        font-size: 24px;
+    }
+      .footer-desc {
+        width: 154px;
+      }
+}
+/* .bitapps-footer{
+    margin-top: -2rem;
+} */
